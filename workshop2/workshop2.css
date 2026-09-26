@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fafaf7;
+}
+
+.tags {
+  margin: 20px;
+  padding: 10px;
+}
+
+.tag {
+  display: inline-block;
+  border: 1px solid #cbd5e1;
+  padding: 6px 16px;
+  text-decoration: none;
+  color: #475569;
+  margin-right: 8px;
+}
+
+.tag.active {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: white;
+}
